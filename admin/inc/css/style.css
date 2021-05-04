@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+img{
+    border: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*========================================
+            header Section
+=========================================*/
+.header_full{
+	background-color: #a79f9f;
+	height: 60px;
+}
+
+/*========================================
+            sidebar Section
+=========================================*/
+.side-bar{
+    background-color: #ddd;
+    min-height: 510px;
+}
+.user-profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.user-profile {
+    text-align: center;
+    margin-top: 10px;
+}
+.user-profile h4{
+    font-size: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    line-height: 35px;
+    background-color: transparent;
+    color: midnightblue;
+    display: block;
+    color: #545050;
+    font-size: 17px;
+    
+}
+.menu ul li i{
+    padding: 5px;
+    width: 30px;
+}
+.menu ul li a:hover{
+    background-color: #9E9998;
+    color: #fff;
+}
+.user-profile p{
+    font-size: 16px;
+}
+.user-profile i{
+    color: green;
+    padding: 5px;
+}
+/*========================================
+            Main Content
+=========================================*/
+.bread{
+    background-color: #d6d0d3;
+    padding: 10px;
+}
+.bread ul{
+
+}
+.bread ul li{
+    
+}
+.bread ul li a{
+    float: left;
+    color: #6d6562;
+    text-decoration: none;
+}
+
+.card_header_title{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 4px;
+	font-family: verdana;
+	text-transform: uppercase;
+}
+
+.card_top_btn{
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.card-header p{
+    background: #ddd;
+    cursor: pointer;
+}
+/*========================================
+            footer Section
+=========================================*/
+.footer_full{
+	background-color: #a79f9f;
+	height: 60px;
+}
